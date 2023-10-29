@@ -1,0 +1,69 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./skysports-premier-league-return_5000805.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.app {
+    background-color: whitesmoke !important;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+
+.newbtn {
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    border: 1px black solid !important;
+    background-color: white !important;
+    color: black !important;
+    transition: all ease-in-out 0.3s;
+}
+
+.btn1 {
+    cursor: pointer !important;
+    border-radius: 4px !important;
+    border: 1px black solid !important;
+    background-color: white !important;
+    color: black !important;
+    transition: all ease-in-out 0.3s;
+    margin-top: 10px !important;
+    padding: 6px 0px !important;
+    text-align: center;
+}
+
+.newbtn:hover {
+    background-color: #222 !important;
+    color: aliceblue !important;
+    transform: scale(1.05) !important;
+}
+.btn1:hover :not([disabled]) {
+    background-color: #222 !important;
+    color: aliceblue !important;
+    transform: scale(1.05) !important;
+}
+
+.btn1:disabled { cursor: no-drop;}
+
+#next-btn {
+    margin: auto;
+    display: none;
+}
+
+.correct-answer {   background-color: steelblue !important;}
+
+.wrong-answer {   background-color: red !important;}
+
+#message { color: red !important; 
+font-family: 'Courier New', Courier, monospace;
+   }
